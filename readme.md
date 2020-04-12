@@ -19,12 +19,9 @@ This happens for a number of reasons:
 - You have css files that are parsed in to your Javascript.
 
 The same is true for your frontend unit tests.
-The tests slow down for similar reasons:
+The tests slow down for the same reasons as above with a few additions:
 
-- You have more code.
-- You have added animation delays to your components.
+- You have added animations to your components.
 - You have code that uses other types of delays that test needs to wait for.
-- You have code that needs compiling.
-- You have css files that are parsed in to your Javascript.
 
 In this video I will show you how modular thinking can help with these issues.
