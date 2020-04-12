@@ -22,6 +22,6 @@ The same is true for your frontend unit tests.
 The tests slow down for the same reasons as above with a few additions:
 
 - You have added animations to your components.
-- You have code that uses other types of delays that test needs to wait for.
+- You have code that uses other types of delays that the test needs to wait for.
 
 In this video I will show you how modular thinking can help with these issues.
