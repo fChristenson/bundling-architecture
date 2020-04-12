@@ -1,4 +1,4 @@
-# Splitting frontend tests
+# Splitting frontend unit tests
 
 ## What we will cover
 
