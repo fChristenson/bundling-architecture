@@ -4,6 +4,7 @@ import { List } from "@ts/List/List";
 /**
  * Not great.
  * Any test I write for <SearchPage> will have at least the same execution time as <List>.
+ * The logic from highNumber is also trapped in this slow execution.
  */
 export const SearchPage = () => {
   const [number, setNumber] = React.useState(0);
