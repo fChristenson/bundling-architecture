@@ -1,6 +1,6 @@
 const fs = require("fs");
 
-const iterations = 1_000_000;
+const iterations = 1_000;
 
 const result = [];
 
