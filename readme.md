@@ -16,7 +16,7 @@ This happens for a number of reasons:
 
 - You have more code.
 - You have code that needs compiling.
-- You have css files that are parsed in to your Javascript.
+- You have static files that are parsed in to your Javascript.
 
 The same is true for your frontend unit tests.
 The tests slow down for the same reasons as above with a few additions:
