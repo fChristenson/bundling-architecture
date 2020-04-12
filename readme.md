@@ -15,7 +15,6 @@ Over time you will notice that your bundling time increases.
 This happens for a number of reasons:
 
 - You have more code.
-- You have added animation delays to your components.
 - You have code that needs compiling.
 - You have css files that are parsed in to your Javascript.
 
@@ -24,6 +23,7 @@ The tests slow down for similar reasons:
 
 - You have more code.
 - You have added animation delays to your components.
+- You have code that uses other types of delays that test needs to wait for.
 - You have code that needs compiling.
 - You have css files that are parsed in to your Javascript.
 
