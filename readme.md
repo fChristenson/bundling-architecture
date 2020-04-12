@@ -1,8 +1,8 @@
-# React demo
+# Splitting frontend tests
 
 ## What we will cover
 
-- 1
+- How to write a
 - 2
 - 3
 

@@ -34,7 +34,8 @@
     "start": "npx nodemon --exec ts-node ./server.ts",
     "webpack": "npx webpack --watch",
     "css": "npx postcss --watch -o ./dist/main.css ./src/public/css/main.css",
-    "test": "npx jest --watch"
+    "test": "npx jest --watch ./src/public/ts/**/*.spec.tsx",
+    "test:heavy": "npx jest ./src/public/ts/**/*.spec.heavy.tsx"
   },
   "keywords": [],
   "author": "",

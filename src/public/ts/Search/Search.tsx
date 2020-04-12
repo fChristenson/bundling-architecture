@@ -1,7 +1,7 @@
 import React from "react";
 
 interface IProps {
-  setNumber(n: number): void;
+  setNumber(e: any): void;
 }
 
 export const Search: React.FunctionComponent<IProps> = ({
@@ -10,11 +10,7 @@ export const Search: React.FunctionComponent<IProps> = ({
 }) => {
   return (
     <div>
-      <input
-        type="text"
-        onChange={(e) => setNumber(parseInt(e.target.value))}
-        placeholder="Filter"
-      />
+      <input type="text" onChange={setNumber} placeholder="Filter" />
       {children}
     </div>
   );
