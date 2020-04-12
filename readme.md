@@ -1,17 +1,26 @@
-# Splitting frontend unit tests
+# The bundling architecture
 
 ## What we will cover
 
-- How frontend unit tests grow over time
-- How to think about code structure to make testing easy
+- How over time bundling time increases
+- How over time frontend unit test execution time grows
+- How to think about code structure to make testing fast
 - What we can do when our tests are already slow
 
 ## Notes
 
-Frontend unit testing is not a popular topic. Many struggle with how to do it well.
+Any successful frontend project will at some point grow bigger.
 
-Over time your code will grow and your test will start to slow down.
+Over time you will notice that your bundling time increases.
 This happens for a number of reasons:
+
+- You have more code.
+- You have added animation delays to your components.
+- You have code that needs compiling.
+- You have css files that are parsed in to your Javascript.
+
+The same is true for your frontend unit tests.
+The tests slow down for similar reasons:
 
 - You have more code.
 - You have added animation delays to your components.
